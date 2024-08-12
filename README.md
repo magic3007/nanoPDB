@@ -5,20 +5,17 @@
 # Getting Started
 
 ```bash
-# V0: static breakpoints
+# V0: static breakpoint
 run.v0.example-1
 
-# V1: static breakpoints
+# V1: dynamic breakpoint (line breakpoint)
 run.v1.example-2
 
-# V2: static breakpoints
+# V2: conditonal breakpoint
 run.v2.example-2
 
-# V3: static breakpoints
+# V3: stepping
 run.v3.example-2
-
-# V4: static breakpoints
-run.v4.example-2
 ```
 
 # Reference
