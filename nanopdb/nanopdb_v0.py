@@ -9,6 +9,7 @@ from code import InteractiveConsole
 class NanoPDBContinue:
     exit: bool = False
 
+# NanoPDB V0: static breakpoints
 class NanoPDB:
     def __init__(self):
         self._in_breakpoint = False
