@@ -6,6 +6,8 @@ if NANOPDB_VERSION == '1':
     from nanopdb.nanopdb_v1 import NanoPDB
 if NANOPDB_VERSION == '2':
     from nanopdb.nanopdb_v2 import NanoPDB
+if NANOPDB_VERSION == '3':
+    from nanopdb.nanopdb_v3 import NanoPDB
 import sys
 
 _usage = """\
