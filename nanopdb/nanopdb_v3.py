@@ -248,7 +248,7 @@ class NanoPDB:
         # return
 
         # (Tip) uncomment the follwing three lines to see how `sys.settrace` works if we return the trace function itself.
-        location = f"{frame.f_code.co_filename}:{frame.f_lineno} ({frame.f_code.co_name})"
+        # location = f"{frame.f_code.co_filename}:{frame.f_lineno} ({frame.f_code.co_name})"
         # print(f"event: {event}, location: {location}")
         # return self._default_dispatch(frame, event, arg)
 
